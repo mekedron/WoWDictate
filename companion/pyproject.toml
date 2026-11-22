@@ -1,0 +1,23 @@
+[project]
+name = "wowdictate"
+version = "0.1.0"
+description = "Companion for the Dictate WoW addon: push-to-talk speech recognition that types into the game chat"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.5",
+    "onnx-asr[cpu,hub]>=0.12.0",
+    "platformdirs>=4.3",
+    "sounddevice>=0.5.6",
+    "dbus-fast>=5.2.0; sys_platform == 'linux'",
+    "evdev>=2.0.0; sys_platform == 'linux'",
+    "pynput>=1.8; sys_platform == 'win32' or sys_platform == 'darwin'",
+    "pyobjc-framework-Cocoa>=11; sys_platform == 'darwin'",
+    "pyobjc-framework-Quartz>=11; sys_platform == 'darwin'",
+]
+
+[project.scripts]
+wow-dictate = "wowdictate.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

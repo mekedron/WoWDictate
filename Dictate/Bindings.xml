@@ -1,0 +1,17 @@
+<Bindings>
+	<Binding name="DICTATE_RADIAL" category="BINDING_CATEGORY_DICTATE" runOnUp="true">
+		Dictate_Binding("RADIAL", keystate)
+	</Binding>
+	<Binding name="DICTATE_QUICK" category="BINDING_CATEGORY_DICTATE" runOnUp="true">
+		Dictate_Binding("QUICK", keystate)
+	</Binding>
+	<Binding name="DICTATE_REPLY" category="BINDING_CATEGORY_DICTATE" runOnUp="true">
+		Dictate_Binding("REPLY", keystate)
+	</Binding>
+	<Binding name="DICTATE_SEND" category="BINDING_CATEGORY_DICTATE">
+		Dictate_Binding("SEND", keystate)
+	</Binding>
+	<Binding name="DICTATE_CANCEL" category="BINDING_CATEGORY_DICTATE">
+		Dictate_Binding("CANCEL", keystate)
+	</Binding>
+</Bindings>

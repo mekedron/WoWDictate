@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: Dictate
+## Title-ruRU: Dictate — голосовой ввод в чат
+## Notes: Voice-to-chat: hold a key, pick a channel on the radial menu, speak. Needs the wow-dictate companion app.
+## Notes-ruRU: Голосовой ввод в чат: зажмите клавишу, выберите канал в круговом меню и говорите. Нужна программа-компаньон wow-dictate.
+## Author: mekedron
+## Version: 0.1.0
+## IconTexture: Interface\Icons\Spell_Holy_Silence
+## SavedVariables: DictateDB
+
+Locales\Locales.lua
+Locales\enUS.lua
+Locales\ruRU.lua
+Core.lua
+Channels.lua
+UI.lua
+Radial.lua
+Options.lua
